@@ -33,6 +33,18 @@
         height: 20px;
         transition: all 1s;
       }
+
+      #chart {
+        width: 50%;
+      }
+
+      #anthony {
+        width: 25%;
+      }
+
+      #dylan {
+        width: 50%;
+      }
     </style>
   </head>
   <body>
@@ -87,7 +99,7 @@
         <tr>
           <th>Name</th>
           <th>Value</th>
-          <th style="width: 50%">Chart</th>
+          <th id="chart">Chart</th>
         </tr>
       </thead>
       <tbody>
@@ -95,14 +107,14 @@
           <td>Anthony</td>
           <td>15</td>
           <td>
-            <div class="bar" id="anthony" style="width: 50%"></div>
+            <div class="bar" id="anthony"></div>
           </td>
         </tr>
         <tr>
           <td>Dylan</td>
           <td>25</td>
           <td>
-            <div class="bar" id="dylan" style="width: 75%"></div>
+            <div class="bar" id="dylan"></div>
           </td>
         </tr>
       </tbody>
