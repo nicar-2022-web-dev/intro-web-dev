@@ -2,12 +2,66 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- You can edit the title of the page that appears in your browser tab here: -->
     <title>NICAR 2022 Intro to Web Dev</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- You can style the contents of your page by putting CSS in the <style> tag below: -->
+    <style>
+      body {
+        max-width: 750px;
+        margin: 40px auto;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      h1 {
+        font-size: 45px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 135%;
+      }
+
+      table {
+        width: 100%;
+        text-align: left;
+      }
+
+      .bar {
+        background-color: black;
+        height: 20px;
+        transition: all 1s;
+      }
+    </style>
   </head>
   <body>
+    <!-- You can add HTML elements to your page here -->
+    <!-- Step 1: Make a headline for the page -->
     <h1>Hello World!</h1>
+
+    <!-- Step 2: Edit the image caption -->
+    <figure>
+      <img
+        width="670"
+        id="ofs"
+        src="media/one_franklin_square.jpg"
+        alt="One Franklin Square"
+      />
+      <figcaption>
+        One Franklin Square, the headquarters for The Washington Post.
+      </figcaption>
+    </figure>
+
+    <!-- Step 3: Add a byline, and make it bold -->
+    <p>
+      <b>By Dylan and Anthony</b>
+    </p>
+
+    <!--
+      Step 4: Add some paragraphs.
+      You can grab placeholder text here: https://www.lipsum.com/
+    -->
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -17,7 +71,8 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
-    <p>
+
+    <p id="my_special_paragraph">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -26,5 +81,40 @@
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
     </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Value</th>
+          <th style="width: 50%">Chart</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anthony</td>
+          <td>15</td>
+          <td>
+            <div class="bar" id="anthony" style="width: 50%"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>Dylan</td>
+          <td>25</td>
+          <td>
+            <div class="bar" id="dylan" style="width: 75%"></div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Step 5: Add some JavaScript to your page -->
+    <button onclick="hello()">Click me</button>
+
+    <script>
+      function hello() {
+        document.getElementById("anthony").style.width = "100%";
+      }
+    </script>
   </body>
 </html>
