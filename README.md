@@ -1,10 +1,10 @@
 # NICAR 2022 Intro to Web Dev
 
-## [https://nicar-2022-web-dev.github.io/intro-web-dev/](https://nicar-2022-web-dev.github.io/intro-web-dev/)
-
 ## Course outline
 
 In this course you'll learn about the fundamental building blocks of a web page: HTML, CSS and JavaScript. Throughout the course you'll work on building a simple web page of your own, by the end you'll have it published on the internet using [GitHub Pages](https://pages.github.com/).
+
+You can see what the completed project will look like here: [https://nicar-2022-web-dev.github.io/intro-web-dev/](https://nicar-2022-web-dev.github.io/intro-web-dev/)
 
 #### Course introduction (10 mins)
 
