@@ -4,8 +4,6 @@
 
 In this course you'll learn about the fundamental building blocks of a web page: HTML, CSS and JavaScript. Throughout the course you'll work on building a simple web page of your own, by the end you'll have it published on the internet using [GitHub Pages](https://pages.github.com/).
 
-You can see what the completed project will look like here: [https://nicar-2022-web-dev.github.io/intro-web-dev/](https://nicar-2022-web-dev.github.io/intro-web-dev/)
-
 #### Course introduction (10 mins)
 
 We'll outline the course, and give you a peek at [the final product](https://nicar-2022-web-dev.github.io/intro-web-dev/).
