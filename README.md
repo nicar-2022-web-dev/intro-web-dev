@@ -29,3 +29,4 @@ You'll learn how to style elements of HTML pages using CSS.
 You'll learn some introductory techniques for making a web page interactive using JavaScript, and have some time to finish up your project.
 
 - [Course slides](https://docs.google.com/presentation/d/13bRODJuToHcIHqtkmzeibqSRafli2EvCFUGEH_3eeFw/)
+- [Exercise instructions](instructions/3.%20JavaScript.md)
