@@ -12,7 +12,7 @@ We'll outline the course, and give you a peek at [the final product](https://nic
 
 You'll learn about the structure and syntax of HTML, and how to use it to build a basic web page.
 
-- [Course slides](https://docs.google.com/presentation/d/1AJBrSLf4LKVT8_kBa8V0EDwkN_8-rGs4aO4x6_6S13s/)
+- [Course slides](https://docs.google.com/presentation/d/1iPqhyozAEBhQreZ85pMRZP-O3X2Uhjci3Tmxhsq9F48/)
 - [HTML "Bridges" game](https://bridges.datajourn.com/)
 - [Exercise instructions](instructions/1.%20HTML.md)
 
@@ -20,7 +20,7 @@ You'll learn about the structure and syntax of HTML, and how to use it to build 
 
 You'll learn how to style elements of HTML pages using CSS.
 
-- [Course slides](https://docs.google.com/presentation/d/1iwu6KjrLqJNv5rntWyzdcWufXVHJ-dsk-snC8Lyaf2A/)
+- [Course slides](https://docs.google.com/presentation/d/1gpxG1-zv7NWeDOMaSU4O9jOAk7dj3J3LJcAogsB06tM/)
 - [CSS exercises](https://css1.datajourn.com/)
 - [Exercise instructions](instructions/2.%20CSS.md)
 
@@ -28,5 +28,4 @@ You'll learn how to style elements of HTML pages using CSS.
 
 You'll learn some introductory techniques for making a web page interactive using JavaScript, and have some time to finish up your project.
 
-- [Course slides](https://docs.google.com/presentation/d/1dOoUEig6_tZLmkB7R5Hni1OxVOWxx8LPi-ijRh8Na2o/edit)
-- [Exercise instructions](instructions/3.%20JavaScript.md)
+- [Course slides](https://docs.google.com/presentation/d/13bRODJuToHcIHqtkmzeibqSRafli2EvCFUGEH_3eeFw/)
