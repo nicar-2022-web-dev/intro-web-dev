@@ -6,7 +6,7 @@ In this course you'll learn about the fundamental building blocks of a web page:
 
 #### Course introduction (10 mins)
 
-We'll outline the course, and give you a peek at [the final product](https://nicar-2022-web-dev.github.io/intro-web-dev/).
+We'll outline the course, and give you a peek at [the final product](https://nicar-2022-web-dev.github.io/intro-web-dev/SOLUTION.html).
 
 #### HTML (55 minutes)
 
